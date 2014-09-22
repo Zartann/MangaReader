@@ -1,5 +1,7 @@
 package view;
 
-public class APanel {
+import javax.swing.JPanel;
+
+public class APanel extends JPanel {
 
 }
