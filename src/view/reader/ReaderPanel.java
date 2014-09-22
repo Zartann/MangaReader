@@ -24,10 +24,10 @@ import view.APanel;
 public class ReaderPanel extends APanel implements KeyListener,
 		MouseWheelListener, MouseListener {
 
-	static Color defaultBackgroundColor = Color.BLACK;
+	private static Color defaultBackgroundColor = Color.BLACK;
 
-	CurrentPage currentPage;
-	Color backgroundColor;
+	private CurrentPage currentPage;
+	private Color backgroundColor;
 
 	public ReaderPanel(Manga manga, Chapter chapter, Page page, Color color) {
 		backgroundColor = color;
