@@ -1,5 +1,7 @@
 package view.list;
 
-public class MangaPanel {
+import view.APanel;
+
+public class MangaPanel extends APanel {
 
 }
