@@ -33,6 +33,10 @@ public class ReaderPanel extends APanel implements KeyListener,
 		backgroundColor = color;
 		currentPage = CurrentPage.load(manga, chapter, page);
 	}
+	
+	public void change(Manga manga, Chapter chapter, Page page){
+		currentPage = CurrentPage.load(manga, chapter, page);
+	}
 
 	public void paintComponent(Graphics g) {
 		Graphics2D g2 = (Graphics2D) g;
